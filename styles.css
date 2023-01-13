@@ -1,0 +1,53 @@
+
+header{
+    max-width: 1920px;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 800px;
+}
+
+.rahmen{
+    box-sizing: border-box;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    background-color: azure;
+    border: grey solid 13px;
+    background-image: url(/images/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position: right top;
+}
+
+.nav ul a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    left: 200px;
+}
+
+.nav ul a:hover{
+    color: blue;
+}
+
+h4{
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+p{
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 60px;
+    color: blue;
+
+}
